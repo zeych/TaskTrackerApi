@@ -39,6 +39,7 @@ curl http://localhost:5277/api/Tasks
 
 📋 Просмотр логов контейнера student_work
 Чтобы убедиться, что приложение стартовало корректно и слушает нужный порт:
+
 cmd:
 docker logs --tail 20 student_work
 Now listening on: http://[::]:8080
@@ -47,6 +48,7 @@ Application started. Press Ctrl+C to shut down.
 Эти логи подтверждают корректный старт.
 Остановка и удаление контейнера student_work
 Когда работа завершена:
+
 cmd:
 docker stop student_work
 docker rm student_work
