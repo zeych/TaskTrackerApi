@@ -61,7 +61,7 @@ curl http://localhost:5277/api/Tasks
     Swagger будет доступен по адресу: http://localhost:5277/swagger.
 
 🗂 Структура проекта: назначение  файлов
-TaskItem.cs	
+    TaskItem.cs	
 Основной объект предметной области. Содержит поля: Title, Description, Status (ToDo/InProgress/Done), Priority (Low/Medium/High).
 Именно эти данные позволяют отображать задачи на Kanban‑доске и фильтровать их по приоритету.	
 ITaskService.cs
