@@ -5,7 +5,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Регистрируем сервис
+
 builder.Services.AddSingleton<ITaskService, TaskService>();
 
 var app = builder.Build();
